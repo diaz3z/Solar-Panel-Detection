@@ -7,14 +7,7 @@ This project implements a Convolutional Neural Network (CNN) model to detect the
 The rapid growth in solar energy adoption has increased the need for automated methods to identify solar panel installations. This project addresses this challenge by leveraging deep learning to classify satellite images. The CNN model is trained on a dataset of images labeled as either containing solar panels or not.
 # Dataset
 The dataset consists of satellite images with corresponding labels indicating the presence or absence of solar panels. The data is divided into training and validation sets, and the images are processed to a uniform size of 101x101x3.
-```bash
-  - training/
-  - 0.tif
-  - 1.tif
-  - ...
-- labels_training.csv
 
-```
 # Model Architecture
 The CNN model consists of the following layers:
 
