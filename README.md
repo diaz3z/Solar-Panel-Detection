@@ -47,11 +47,12 @@ Non-trainable params: 1216
 The model is trained using binary cross-entropy loss and the Adam optimizer. Stratified K-Fold cross-validation is employed to assess the model's performance across different splits of the dataset.
 
 During training, class weights are applied to handle the imbalance in the dataset (with more images not containing solar panels than those that do).
+
+
 # Cross-Validation Results:
 The model achieves high accuracy and demonstrates strong performance across various metrics.
-# Results
-ROC Curve:
-The ROC curve visualizes the model's ability to distinguish between the classes, with an AUC score of [insert score here].
+
+
 # Confusion Matrix:
 The following images illustrate examples of true positives, true negatives, false positives, and false negatives:
 
